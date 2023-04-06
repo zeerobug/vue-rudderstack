@@ -12,6 +12,8 @@ export const rudderstack = {
     // Page tracking
     if (options.router !== undefined) {
       options.router.afterEach((to, from) => {
+        console.log("Inside router");
+
         // Make a page call for each navigation event
         analytics.page(options.pageCategory, to.name || "", {
           path: to.fullPath,

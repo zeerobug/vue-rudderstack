@@ -1,6 +1,6 @@
 {
   "name": "vue-rudderstack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rudderstack integration in vue",
   "author": "Thomas Vié",
   "license": "MIT",
@@ -8,6 +8,10 @@
   "dependencies": {
     "load-script": "^2.0.0",
     "typescript": "^5.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeerobug/vue-rudderstack"
   },
   "scripts": {
     "build": "npx tsc",
